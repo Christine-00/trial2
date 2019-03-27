@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<title>Jayden</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css?family=Concert+One|Montserrat|Ubuntu|Nova+Flat" rel="stylesheet"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+<link href="home.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<section id="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="">Sohai Piggies</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+ 			 <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="navlink" href="home1.html" >Home</a>
+				</li>
+				<li class="nav-item ">
+					<a class="navlink" href="rules.html" >Rules & Instructions</a>
+				</li>
+				<li class="nav-item ">
+					<a class="navlink" href="aboutUs.html" >About us</a>
+				</li>
+
+			</ul>
+		</div>
+		</nav>
+</section>
+
+<section class="title">
+	<div class="position-relative title-parent">
+		<img src="homeImg.jpeg" alt="Picture of Jayden&Christine" class="title-img " />
+		<div class="position-absolute title-info">
+			Presenting to you<br/>
+			<div style="font-family: 'Nova Flat', cursive;font-size:6.5vw;font-weight:bold">The ultimate birthday scavenger hunt</div>
+			03/2019
+		</div>
+	</div>
+</section>
+
+<section class="features row">
+	<div class="col-lg-4">
+		<i class="fas fa-heart features-icon"></i><br/>
+		Fun guaranteed
+	</div>
+	<div class="col-lg-4">
+		<i class="fas fa-user-circle features-icon"></i><br/>
+		"I hope everything will go well today"
+	</div>
+	<div class="col-lg-4">
+		<i class="fas fa-check-circle features-icon"></i><br/>
+		Easy to play
+	</div>
+</section>
+
+<section class="quiz">
+	<section class="row">
+			<div class="col  col-lg-6 col-sm-12">
+				<div class="card text-center">
+					<div class="card-body">
+						<h5 class="card-title">1st venue</h5>
+						<p class="card-text">They have 2 sections; natureland and ___ ?</p>
+						<form>
+						<input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+					  </form>
+			</div>
+		</div>
+			</div>
+			<div class="col  col-lg-6 col-sm-12">
+				<div class="card text-center">
+					<div class="card-body">
+						<h5 class="card-title">2nd venue</h5>
+						<p class="card-text">How many working days does this place have?</p>
+						<form>
+						<input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+					  </form>
+			</div>
+			</div>
+
+	</section>
+<br>
+<section class="row">
+		<div class="col  col-lg-6 col-sm-12">
+			<div class="card text-center">
+				<div class="card-body">
+					<h5 class="card-title">3rd venue</h5>
+					<p class="card-text">Special passcode</p>
+					<form>
+					<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+				  </form>
+		</div>
+	</div>
+		</div>
+		<div class="col  col-lg-6 col-sm-12">
+			<div class="card text-center">
+				<div class="card-body">
+					<h5 class="card-title">4th venue</h5>
+					<p class="card-text">Color?</p>
+					<form>
+					<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+				  </form>
+		</div>
+		</div>
+
+</section>
+<br>
+<button type="button" class="btn btn-light btn-lg btn-block" onclick="verify();">Submit</button>
+
+<script type="text/javascript">
+	function verify(){
+		verify1();
+		verify2();
+		verify3();
+		verify4();
+	}
+
+	function verify1(){
+		var ans1 = document.getElementById("inputPassword1").value;
+		if(ans1 != ""){
+			if (ans1 != "cocoon")
+			{
+				alert("Wrong passcode!");
+			}
+			else {
+				alert("5.4296° N, 100.3120° E");
+			}
+		}
+	}
+
+	function verify2(){
+		var ans2 = document.getElementById("inputPassword2").value;
+		if(ans2 != ""){
+			if (ans2 != 14)
+			{
+				alert("Wrong passcode!");
+			}
+			else {
+				alert("5.4164° N, 100.3411° E");
+			}
+		}
+	}
+
+	function verify3(){
+		var ans3 = document.getElementById("inputPassword3").value;
+		if(ans3 != ""){
+			if (ans3 != 042519095)
+			{
+				alert("Wrong passcode!");
+			}
+			else {
+				alert("5.4166° N, 100.3417° E");
+			}
+		}
+	}
+
+	function verify4(){
+		var ans4 = document.getElementById("inputPassword4").value;
+		if(ans4 != ""){
+			if (ans4 != "blue")
+			{
+				alert("Wrong passcode!");
+			}
+			else {
+				alert("CONGRATULATIONS! You have completed today's task.");
+			}
+		}
+	}
+
+</script>
+
+
+</body>
+
+</html>
