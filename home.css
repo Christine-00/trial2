@@ -1,0 +1,91 @@
+﻿body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+section{
+	display:block;
+	position:relative;
+}
+
+
+/*navbar*/
+nav{
+	line-height:2em;
+}
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	margin:0em 1.5em;
+	font-weight:bold;
+	font-size:200%;
+}
+
+.navlink{
+	font-family: 'Montserrat', sans-serif;
+	color:#c5c5c5;
+	margin:0em 2em;
+
+}
+.navlink:hover{
+	color:white;
+	text-decoration:none;
+}
+.nav-item{
+	padding-left:2em;
+}
+
+.navbar-collapse:active {
+	background-color:black;
+}
+
+.navbar-toggler{
+	font-size: 1.25rem;
+       line-height: 1;
+       color:white;
+}
+/*title*/
+.title-img{
+	max-width:100%;
+}
+.title-info{
+	color:white;
+	left: 50%;
+  	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+	font-size:3vw;
+}
+
+/*Features*/
+.row{
+	margin:0px 0px;
+}
+.features{
+	background-color:#B9B7BD;
+	text-align:center;
+	padding:3% 3%;
+	max-width:100%;
+}
+
+.features div{
+	font-size:2vw;
+	padding:2% 3%;
+}
+
+.features-icon{
+	font-size:7vw;
+	line-height:9vw;
+}
+
+/*quiz*/
+.quiz{
+	padding: 5% 5%;
+	background-color:rgba(0,0,0,0.7);
+}
+
+::placeholder{
+	text-align: center;
+}
+
+.quiz .card-header{
+	text-align: center;
+}
